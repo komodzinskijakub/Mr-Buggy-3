@@ -1,0 +1,38 @@
+ID,Strona w specyfikacji,Akapit,Opis Błędu
+1,4-5,Spis definicji,Błędy interpunkcyjne - brak standaryzacji występowania kropek w podpunktach.
+2,4-5,Spis definicji,Spis definicji nie występuje w kolejności alfabetycznej.
+3,6,Dokument ten przedstawia specyfikację aplikacji MrBuggy 2015,Specyfikacja tyczy się aplikacji Mr Buggy 3.
+4,6,Więcej informacji o samych Mistrzostwach znajduje się na stronie www.testingcup.pl.,Hiperłącze przenosi na inny adres strony internetowej.
+5,6-7,“Wersje aplikacji”,"Wymagania określają cztery wersje aplikacji klienckiej. Wyszczególnione są jedynie trzy: demonstracyjna, końcowa, publiczna."
+6,7,Język programowania oraz baza danych urzyta podczas tworzenia aplikacji nie są zdefiniowane. Ich wybór jest pozostawiony Wykonawcy zlecenia. ,Błąd ortograficzny - “urzyta”
+7,7,Dane z części klienckiej dostarczane są do części serwerowej w postaci pliku tekstowego:,Niezdefiniowany rodzaj pliku tekstowego.
+8,8-9,"Kopia zapasowa ma być tworzona po każdorazowym kliknięciu w przycisk “Znalazłem defekt”. Ma przyjmować format pliku binarnego, który zostanie wczytany po ponownym otwarciu aplikacji.",Niezdefiniowany rodzaj pliku binarnego. 
+9,8,Aplikacja kliencka musi pracować w jednym z trzech trybów:,Tryby występują w kategoriach. Nie zdefiniowano ich ilości.
+10,9,"Rejestrować wszystkie czynności (jak na przykład poprawnie odebrany raport, niepoprawnie odebrany raport, poprawnie oceniony raport itd.) w dzienniku zdarzeń części serwerowej.","W specyfikacji aplikacji powinny być jasno sprecyzowane funkcjonalności, bez zapisu ogólnego.
+"
+11,10,Okno aplikacji powinno dzielić się na dwie części - okno “Zadania” oraz “Menu boczne” ułożone po prawej stronie. ,"Warto sprecyzować, że rozmieszczenie okien odnosi się do Rysunku 1.
+"
+12,10,"Pole “Czas” - wyświetla czas do zakończenia rundy (format: gg:mm:ss; godzina, minuta, sekunda, milisekunda) ",Brak milisekund w formacie czasu: gg:mm:ss. 
+13,10,"Przyciski nawigacyjne - “Następne” i “Poprzednie” umożliwiają przeniesienie się do odpowiednio bieżącego, następnego i poprzedniego zadania.",Nieścisłość przenoszenia się do bieżącego zadania.
+14,10-11,Przycisk “Zaraportuj defekt” - pozwala na zaraportowanie defektu aktualnie wyświetlanego w oknie “Zadania”.,"Niespójność nazwy przycisku “Zaproponuj defekt” z Rysunkiem 1, na którym znajduje się przycisk “Znalazłem defekt”.
+
+"
+15,10,"Pole “Lista zadań” - umożliwia nawigację pomiędzy zadaniami. Zadania bez udzielonej odpowiedzi, z udzieloną odpowiedzią i aktualnie wyświetlone muszą się odznaczać innym kolorem.",Niezdefiniowany kolor
+16,10,Rysunek 1,W treści specyfikacji było wspomniane o minimalnej ilości zadań: 15. Na rysunku naniesione jest 12 zadań.
+17,10-11,Pole “Opis problemu” - zawiera ogólną informację na temat zadania wyświetlonego w polu “Zadania” wraz z ilością punktów za dane zadanie,"Niespójność nazwy przycisku “Opis problemu” z Rysunkiem 1, na którym znajduje się przycisk “Opis zadania”."
+18,11,Rysunek 1,"W specyfikacji wspomniano o milisekundach. Brak milisekund w formacie czasu.
+"
+19,11,Aplikacja serwerowa ma zostać stworzona przy wykorzystaniu języka Java7.,"W specyfikacji było wspomniane, że języki programowania nie są zdefiniowane."
+20,12,wielkość pliku z kopią zapasową aplikacji klienckiej nie może przekraczać 2MB1,Nie występuje jednostka MB1
+21,12,"Login musi składać się z 2 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny.",Wymagania nie pozwalają na login 2 znakowy.
+22,13,Przełączanie pomiędzy zadaniami nie może być dłuższe niż 1 sekunda,"Nie są to wymagania niezawodności, a wydajności."
+23,13,W ciągu roku średnia ilość awarii (rozumianych jako ilość niespodziewanych wyłączeń aplikacji wymagających skorzystania z kopii zapasowej) w jednym dniu nie może być większa niż 1 ,Nie można przewidzieć ilości awarii.
+24,13,Nie jest wymagany instalator aplikacji.,W spisie definicji jest wyjaśniony instalator aplikacji Mr Buggy 3. Brak sprecyzowania czy instalator jest czy nie ma.
+25,14,Defekty w aplikacji są oceniane według kryterium ważności i dzielą się na 3 klasy:,"Wartości brzegowe punktacji w klasie normalnej i krytycznej pokrywają się ze sobą.
+"
+26,13,Wydajność aplikacji liczona ze wzoru:,Brak zdefiniowanej jednostki wynikającej ze wzoru.
+27,13,Wydajność aplikacji liczona ze wzoru:,Brak zdefiniowanej jednostki wynikającej ze wzoru.
+28,13,Tokeny do konta mają być generowane losowo,Brak zdefiniowania czym jest token.
+29,13,Konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła lub jego części,Część hasła także jest błędnym hasłem.
+30,6 i 14,Opis zadań zamieszczonych w tej wersji:,"Na stronie 6 wspomniane było, że wersja demonstracyjna zawiera jedno zadanie, a na stronie 14 opisane są dwa."
+31,3,Wersje dokumentu:,Nie zostały uwzględnione w spisie treści.
